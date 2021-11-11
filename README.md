@@ -28,7 +28,7 @@ Ordnerstruktur:
 `pdf/`: Übersichts- und Explosionszeichnung im Order<br>
 `img/`: Bilder und Ansichten<br>
 
-### AN00 Ansicht Fraese komplett
+### AN00 Baugruppen komplett
 
 	TBD 0001 Fraese komplett
 	TBD 0002 Rahmen montiert
@@ -38,6 +38,7 @@ Ordnerstruktur:
 	0011 Stirnseite Vorne montiert
 	TBD 0021 Stirnseite Hinten monitoert
 	TBD 0031 Portal komplett (Seiten + Platte)
+	TBD 0033 Portal Motorhalter
 	0041 Portal Platte montiert
 	TBD 0051 Z Achse montiert
 
@@ -48,6 +49,7 @@ Ordnerstruktur:
 	TBD 0021 Stirnseite Hinten
 	TBD 0031 Portal links
 	TBD 0032 Portal rechts
+	TBD 0033 Portal Motorhalter
 	0041 Portal Platte
 	TBD 0051 Z Achse
 
@@ -62,6 +64,7 @@ Ordnerstruktur:
 	0012 Portalwange rechts
 	0013 Portalwange Lagerhalter
 	0014 Portalwange Motorhalter
+	0015 Portalwange Motorplatte
 
 	0021 Portal Platte
 	0022 Portal Block Adapter
