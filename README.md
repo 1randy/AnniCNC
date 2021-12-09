@@ -27,6 +27,7 @@ Ordnerstruktur:
 `stl/`: Dateien fuer Selbstfertigung der 3D Druckteile<br>
 `pdf/`: Übersichts- und Explosionszeichnung im Order<br>
 `img/`: Bilder und Ansichten<br>
+`misc/mesa`: Angepasstes mesa Bitfiles fuer den Betrieb von LinuxCNC<br>
 
 ### AN00 Baugruppen komplett
 
