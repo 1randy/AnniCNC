@@ -71,9 +71,11 @@ Ordnerstruktur:
 	0022 Portal Block Adapter
 
 	0031 Z-Achse Platte
+	     Rev01 - Verlaengerung auf 380mm, Sacklöcher fuer M6 schrauben
 	0032 Z-Achse Block Adapter
 	0033 Z-Achse Spindelplatte
 	0034 Z-Achse Motorplatte
+	     Rev01 - zusaetzlich M5 fuer Riemenspanner
 	0035 Z-Achse Motorhalter
 
 ### AN03 Druckteile
