@@ -12,7 +12,11 @@ In diesem Repo stelle ich meine Plaene und Designs der "AnniCNC" Portalfraese de
 Viele Ideen der Umsetzung habe ich mir von anderen Selbstbauten und den Foren geholt, danke daher (unter 
 anderem und nicht ganz vollstaendig) an:
 
-[UnclePhil](https://www.youtube.com/c/UnclePhil) - [EndCNC](https://www.youtube.com/c/SebastianEnd) - [Talla83](https://www.youtube.com/user/talla83) - [AlexCNC](https://www.youtube.com/c/AlexCNC) - [CNC Werk](https://cncwerk.de/forum/) - [CNC Ecke](https://www.cncecke.de/forum/forum.php) - ["CNC, Späne und Chaos"](https://discord.gg/AsD3zVaeg5)
+
+- Youtube: [UnclePhil](https://www.youtube.com/c/UnclePhil) - [EndCNC](https://www.youtube.com/c/SebastianEnd) - [Talla83](https://www.youtube.com/user/talla83) - [AlexCNC](https://www.youtube.com/c/AlexCNC) - [RotarySMPC](https://www.youtube.com/c/RotarySMP)
+- Foren: [CNC Werk](https://cncwerk.de/forum/) - [CNC Ecke](https://www.cncecke.de/forum/forum.php)
+- Discord: ["CNC, Späne und Chaos"](https://discord.gg/AsD3zVaeg5) - ["Spanbrecher"](https://discord.gg/Vr6PEbVU)
+
 
 <p><br>
 
@@ -71,12 +75,12 @@ Ordnerstruktur:
 	0022 Portal Block Adapter
 
 	0031 Z-Achse Platte
-	     Rev01 - Verlaengerung auf 380mm, Sacklöcher fuer M6 schrauben
+	     Rev01 - Verlaengerung auf 380mm, Sackloecher fuer M6 schrauben
 	0032 Z-Achse Block Adapter
 	0033 Z-Achse Spindelplatte
 	0034 Z-Achse Motorplatte
-	     Rev01 - zusaetzlich M5 fuer Riemenspanner
 	0035 Z-Achse Motorhalter
+	     Rev01 - zusaetzliche M5 fuer Riemenspanner
 
 ### AN03 Druckteile
 
