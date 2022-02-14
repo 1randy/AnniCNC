@@ -219,7 +219,7 @@ TABLE
   2
 LAYER
   5
-A86
+ABA
 330
 0
 100
@@ -229,9 +229,9 @@ AcDbSymbolTable
   0
 LAYER
   5
-A87
+ABB
 330
-A86
+ABA
 100
 AcDbSymbolTableRecord
 100
@@ -247,9 +247,9 @@ CONTINUOUS
   0
 LAYER
   5
-A88
+ABC
 330
-A86
+ABA
 100
 AcDbSymbolTableRecord
 100
@@ -265,15 +265,15 @@ CONTINUOUS
   0
 LAYER
   5
-A89
+ABD
 330
-A86
+ABA
 100
 AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Fusion004003
+Fusion
  70
     0
  62
@@ -691,7 +691,7 @@ SECTION
   2
 ENTITIES
   0
-ARC
+LINE
   5
 A08
 330
@@ -699,15 +699,89 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+19.975
+ 30
+0
+ 11
+25
+ 21
+19.975
+ 31
+10
+  0
+LINE
+  5
+A09
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+19.975
+ 20
+25
+ 30
+0
+ 11
+19.975
+ 21
+25
+ 31
+10
+  0
+ARC
+  5
+A0A
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
 100
 AcDbCircle
  10
-3.35361e-25
+0
  20
--2.18993e-23
+0
  30
-1.4893e-40
+0
+ 40
+32
+100
+AcDbArc
+ 50
+38.6248
+ 51
+51.3752
+  0
+ARC
+  5
+A0B
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+10
  40
 32
 100
@@ -719,13 +793,109 @@ AcDbArc
   0
 LINE
   5
-A09
+A0C
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+19.975
+ 30
+0
+ 11
+25
+ 21
+19.975
+ 31
+10
+  0
+LINE
+  5
+A0D
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+-19.975
+ 30
+0
+ 11
+25
+ 21
+-19.975
+ 31
+10
+  0
+LINE
+  5
+A0E
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+19.975
+ 30
+0
+ 11
+25
+ 21
+-19.975
+ 31
+0
+  0
+LINE
+  5
+A0F
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+19.975
+ 30
+10
+ 11
+25
+ 21
+-19.975
+ 31
+10
+  0
+LINE
+  5
+A10
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
 100
 AcDbLine
  10
@@ -733,31 +903,153 @@ AcDbLine
  20
 25
  30
--8.87068e-15
+0
  11
-19.975
+-19.975
  21
 25
  31
-8.87068e-15
+10
   0
-ARC
+LINE
   5
-A0A
+A11
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
+100
+AcDbLine
+ 10
+19.975
+ 20
+25
+ 30
+0
+ 11
+19.975
+ 21
+25
+ 31
+10
+  0
+LINE
+  5
+A12
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+25
+ 30
+0
+ 11
+19.975
+ 21
+25
+ 31
+0
+  0
+LINE
+  5
+A13
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+25
+ 30
+10
+ 11
+19.975
+ 21
+25
+ 31
+10
+  0
+ARC
+  5
+A14
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
 100
 AcDbCircle
  10
-3.35361e-25
+0
  20
--2.18993e-23
+0
  30
-1.4893e-40
+0
+ 40
+32
+100
+AcDbArc
+ 50
+38.6248
+ 51
+51.3752
+  0
+LINE
+  5
+A15
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+25
+ 30
+0
+ 11
+19.975
+ 21
+25
+ 31
+0
+  0
+ARC
+  5
+A16
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+0
  40
 32
 100
@@ -769,13 +1061,13 @@ AcDbArc
   0
 LINE
   5
-A0B
+A17
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
@@ -783,31 +1075,31 @@ AcDbLine
  20
 19.975
  30
--1.11022e-14
+0
  11
 -25
  21
 -19.975
  31
--1.11022e-14
+0
   0
 ARC
   5
-A0C
+A18
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-3.35361e-25
+0
  20
--2.18993e-23
+0
  30
-1.4893e-40
+0
  40
 32
 100
@@ -819,13 +1111,13 @@ AcDbArc
   0
 LINE
   5
-A0D
+A19
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
@@ -833,31 +1125,31 @@ AcDbLine
  20
 -25
  30
--8.87068e-15
+0
  11
 19.975
  21
 -25
  31
-8.87068e-15
+0
   0
 ARC
   5
-A0E
+A1A
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-3.35361e-25
+0
  20
--2.18993e-23
+0
  30
-1.4893e-40
+0
  40
 32
 100
@@ -869,13 +1161,13 @@ AcDbArc
   0
 LINE
   5
-A0F
+A1B
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
@@ -883,241 +1175,13 @@ AcDbLine
  20
 19.975
  30
-1.11022e-14
+0
  11
 25
  21
 -19.975
  31
-1.11022e-14
-  0
-CIRCLE
-  5
-A10
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-3.35361e-25
- 20
--2.18993e-23
- 40
-12.5
-  0
-CIRCLE
-  5
-A11
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
-17.6777
- 40
-2.75
-  0
-CIRCLE
-  5
-A12
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
--17.6777
- 40
-2.75
-  0
-CIRCLE
-  5
-A13
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-17.6777
- 20
--17.6777
- 40
-2.75
-  0
-CIRCLE
-  5
-A14
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-17.6777
- 20
-17.6777
- 40
-2.75
-  0
-CIRCLE
-  5
-A15
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--21
- 20
 0
- 40
-1.6
-  0
-CIRCLE
-  5
-A16
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-0
- 20
--21
- 40
-1.6
-  0
-CIRCLE
-  5
-A17
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-21
- 20
-0
- 40
-1.6
-  0
-CIRCLE
-  5
-A18
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-0
- 20
-21
- 40
-1.6
-  0
-LINE
-  5
-A19
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbLine
- 10
--14.9277
- 20
-17.6777
- 30
--6.62922e-15
- 11
--14.9277
- 21
-17.6777
- 31
-10
-  0
-LINE
-  5
-A1A
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbLine
- 10
--14.9277
- 20
-17.6777
- 30
--6.62922e-15
- 11
--14.9277
- 21
-17.6777
- 31
-10
-  0
-CIRCLE
-  5
-A1B
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
-17.6777
- 40
-2.75
   0
 CIRCLE
   5
@@ -1127,7 +1191,25 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+17.25
+  0
+CIRCLE
+  5
+A1D
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
 100
 AcDbCircle
  10
@@ -1137,31 +1219,7 @@ AcDbCircle
  40
 2.75
   0
-LINE
-  5
-A1D
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbLine
- 10
--14.9277
- 20
--17.6777
- 30
--6.62922e-15
- 11
--14.9277
- 21
--17.6777
- 31
-10
-  0
-LINE
+CIRCLE
   5
 A1E
 330
@@ -1169,21 +1227,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
--14.9277
+-17.6777
  20
 -17.6777
- 30
--6.62922e-15
- 11
--14.9277
- 21
--17.6777
- 31
-10
+ 40
+2.75
   0
 CIRCLE
   5
@@ -1193,11 +1245,11 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
--17.6777
+17.6777
  20
 -17.6777
  40
@@ -1211,17 +1263,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
--17.6777
+17.6777
  20
--17.6777
+17.6777
  40
 2.75
   0
-LINE
+CIRCLE
   5
 A21
 330
@@ -1229,23 +1281,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-20.4277
+-21
  20
--17.6777
- 30
-9.07171e-15
- 11
-20.4277
- 21
--17.6777
- 31
-10
+0
+ 40
+1.6
   0
-LINE
+CIRCLE
   5
 A22
 330
@@ -1253,21 +1299,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-20.4277
+0
  20
--17.6777
- 30
-9.07171e-15
- 11
-20.4277
- 21
--17.6777
- 31
-10
+-21
+ 40
+1.6
   0
 CIRCLE
   5
@@ -1277,15 +1317,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-17.6777
+21
  20
--17.6777
+0
  40
-2.75
+1.6
   0
 CIRCLE
   5
@@ -1295,15 +1335,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-17.6777
+0
  20
--17.6777
+21
  40
-2.75
+1.6
   0
 LINE
   5
@@ -1313,21 +1353,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
-20.4277
+25
  20
-17.6777
+19.975
  30
-9.07171e-15
- 11
-20.4277
- 21
-17.6777
- 31
 10
+ 11
+25
+ 21
+19.975
+ 31
+20
   0
 LINE
   5
@@ -1337,23 +1377,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
-20.4277
+19.975
  20
-17.6777
+25
  30
-9.07171e-15
- 11
-20.4277
- 21
-17.6777
- 31
 10
+ 11
+19.975
+ 21
+25
+ 31
+20
   0
-CIRCLE
+ARC
   5
 A27
 330
@@ -1361,17 +1401,25 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-17.6777
+0
  20
-17.6777
+0
+ 30
+10
  40
-2.75
+32
+100
+AcDbArc
+ 50
+38.6248
+ 51
+51.3752
   0
-CIRCLE
+ARC
   5
 A28
 330
@@ -1379,259 +1427,13 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-17.6777
+0
  20
-17.6777
- 40
-2.75
-  0
-CIRCLE
-  5
-A29
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
-17.6777
- 40
-4.5
-  0
-CIRCLE
-  5
-A2A
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
-17.6777
- 40
-2.75
-  0
-CIRCLE
-  5
-A2B
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
--17.6777
- 40
-4.5
-  0
-CIRCLE
-  5
-A2C
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
--17.6777
- 40
-2.75
-  0
-CIRCLE
-  5
-A2D
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-17.6777
- 20
--17.6777
- 40
-4.5
-  0
-CIRCLE
-  5
-A2E
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-17.6777
- 20
--17.6777
- 40
-2.75
-  0
-CIRCLE
-  5
-A2F
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-17.6777
- 20
-17.6777
- 40
-4.5
-  0
-CIRCLE
-  5
-A30
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-17.6777
- 20
-17.6777
- 40
-2.75
-  0
-LINE
-  5
-A31
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbLine
- 10
--13.1777
- 20
-17.6777
- 30
-10
- 11
--13.1777
- 21
-17.6777
- 31
-20
-  0
-LINE
-  5
-A32
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbLine
- 10
--13.1777
- 20
-17.6777
- 30
-10
- 11
--13.1777
- 21
-17.6777
- 31
-20
-  0
-CIRCLE
-  5
-A33
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
-17.6777
- 40
-4.5
-  0
-CIRCLE
-  5
-A34
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
-17.6777
- 40
-4.5
-  0
-ARC
-  5
-A35
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--8.88178e-15
- 20
--1.98877e-23
+0
  30
 20
  40
@@ -1645,13 +1447,209 @@ AcDbArc
   0
 LINE
   5
-A36
+A29
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
+100
+AcDbLine
+ 10
+19.975
+ 20
+-25
+ 30
+0
+ 11
+19.975
+ 21
+-25
+ 31
+10
+  0
+LINE
+  5
+A2A
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+-19.975
+ 30
+0
+ 11
+25
+ 21
+-19.975
+ 31
+10
+  0
+ARC
+  5
+A2B
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+0
+ 40
+32
+100
+AcDbArc
+ 50
+-51.3752
+ 51
+-38.6248
+  0
+ARC
+  5
+A2C
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+10
+ 40
+32
+100
+AcDbArc
+ 50
+-51.3752
+ 51
+-38.6248
+  0
+LINE
+  5
+A2D
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+19.975
+ 30
+10
+ 11
+25
+ 21
+19.975
+ 31
+20
+  0
+LINE
+  5
+A2E
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+-19.975
+ 30
+10
+ 11
+25
+ 21
+-19.975
+ 31
+20
+  0
+LINE
+  5
+A2F
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+19.975
+ 30
+10
+ 11
+25
+ 21
+-19.975
+ 31
+10
+  0
+LINE
+  5
+A30
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+19.975
+ 30
+20
+ 11
+25
+ 21
+-19.975
+ 31
+20
+  0
+LINE
+  5
+A31
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
 100
 AcDbLine
  10
@@ -1659,31 +1657,81 @@ AcDbLine
  20
 25
  30
-20
+0
  11
-19.975
+-19.975
  21
 25
  31
-20
+10
   0
-ARC
+LINE
   5
-A37
+A32
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+19.975
+ 30
+0
+ 11
+-25
+ 21
+19.975
+ 31
+10
+  0
+ARC
+  5
+A33
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
 100
 AcDbCircle
  10
--8.88178e-15
+0
  20
--1.98877e-23
+0
  30
-20
+0
+ 40
+32
+100
+AcDbArc
+ 50
+128.625
+ 51
+141.375
+  0
+ARC
+  5
+A34
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+10
  40
 32
 100
@@ -1695,29 +1743,101 @@ AcDbArc
   0
 LINE
   5
+A35
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+25
+ 30
+10
+ 11
+-19.975
+ 21
+25
+ 31
+20
+  0
+LINE
+  5
+A36
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+19.975
+ 20
+25
+ 30
+10
+ 11
+19.975
+ 21
+25
+ 31
+20
+  0
+LINE
+  5
+A37
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+25
+ 30
+10
+ 11
+19.975
+ 21
+25
+ 31
+10
+  0
+LINE
+  5
 A38
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--25
+-19.975
  20
-19.975
+25
  30
 20
  11
--25
+19.975
  21
--19.975
+25
  31
 20
   0
-ARC
+LINE
   5
 A39
 330
@@ -1725,15 +1845,185 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+19.975
+ 30
+0
+ 11
+-25
+ 21
+19.975
+ 31
+10
+  0
+LINE
+  5
+A3A
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+-19.975
+ 30
+0
+ 11
+-25
+ 21
+-19.975
+ 31
+10
+  0
+LINE
+  5
+A3B
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+19.975
+ 30
+0
+ 11
+-25
+ 21
+-19.975
+ 31
+0
+  0
+LINE
+  5
+A3C
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+19.975
+ 30
+10
+ 11
+-25
+ 21
+-19.975
+ 31
+10
+  0
+LINE
+  5
+A3D
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+-19.975
+ 30
+0
+ 11
+-25
+ 21
+-19.975
+ 31
+10
+  0
+LINE
+  5
+A3E
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+-25
+ 30
+0
+ 11
+-19.975
+ 21
+-25
+ 31
+10
+  0
+ARC
+  5
+A3F
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
 100
 AcDbCircle
  10
--8.88178e-15
+0
  20
--1.98877e-23
+0
  30
-20
+0
+ 40
+32
+100
+AcDbArc
+ 50
+-141.375
+ 51
+-128.625
+  0
+ARC
+  5
+A40
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+10
  40
 32
 100
@@ -1745,169 +2035,29 @@ AcDbArc
   0
 LINE
   5
-A3A
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbLine
- 10
--19.975
- 20
--25
- 30
-20
- 11
-19.975
- 21
--25
- 31
-20
-  0
-ARC
-  5
-A3B
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--8.88178e-15
- 20
--1.98877e-23
- 30
-20
- 40
-32
-100
-AcDbArc
- 50
--51.3752
- 51
--38.6248
-  0
-LINE
-  5
-A3C
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbLine
- 10
-25
- 20
-19.975
- 30
-20
- 11
-25
- 21
--19.975
- 31
-20
-  0
-CIRCLE
-  5
-A3D
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--8.88178e-15
- 20
--1.98877e-23
- 40
-12.5
-  0
-CIRCLE
-  5
-A3E
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
-17.6777
- 40
-4.5
-  0
-CIRCLE
-  5
-A3F
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--17.6777
- 20
--17.6777
- 40
-4.5
-  0
-CIRCLE
-  5
-A40
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
-17.6777
- 20
--17.6777
- 40
-4.5
-  0
-CIRCLE
-  5
 A41
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
-17.6777
+-19.975
  20
-17.6777
- 40
-4.5
+-25
+ 30
+0
+ 11
+-19.975
+ 21
+-25
+ 31
+10
   0
-CIRCLE
+LINE
   5
 A42
 330
@@ -1915,17 +2065,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
--21
+19.975
  20
+-25
+ 30
 0
- 40
-1.6
+ 11
+19.975
+ 21
+-25
+ 31
+10
   0
-CIRCLE
+LINE
   5
 A43
 330
@@ -1933,17 +2089,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
--8.88178e-15
+-19.975
  20
--21
- 40
-1.6
+-25
+ 30
+0
+ 11
+19.975
+ 21
+-25
+ 31
+0
   0
-CIRCLE
+LINE
   5
 A44
 330
@@ -1951,17 +2113,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
-21
+-19.975
  20
-0
- 40
-1.6
+-25
+ 30
+10
+ 11
+19.975
+ 21
+-25
+ 31
+10
   0
-CIRCLE
+LINE
   5
 A45
 330
@@ -1969,15 +2137,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
--8.88178e-15
+17.25
  20
-21
- 40
-1.6
+0
+ 30
+0
+ 11
+17.25
+ 21
+0
+ 31
+10
   0
 LINE
   5
@@ -1987,23 +2161,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--13.1777
+17.25
  20
--17.6777
+0
  30
-10
+0
  11
--13.1777
+17.25
  21
--17.6777
+0
  31
-20
+10
   0
-LINE
+CIRCLE
   5
 A47
 330
@@ -2011,21 +2185,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
--13.1777
+0
  20
--17.6777
- 30
-10
- 11
--13.1777
- 21
--17.6777
- 31
-20
+0
+ 40
+17.25
   0
 CIRCLE
   5
@@ -2035,17 +2203,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
--17.6777
+0
  20
--17.6777
+0
  40
-4.5
+17.25
   0
-CIRCLE
+LINE
   5
 A49
 330
@@ -2053,15 +2221,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
--17.6777
+-14.9277
  20
--17.6777
- 40
-4.5
+17.6777
+ 30
+0
+ 11
+-14.9277
+ 21
+17.6777
+ 31
+10
   0
 LINE
   5
@@ -2071,23 +2245,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
-22.1777
+-14.9277
  20
--17.6777
+17.6777
  30
-10
+0
  11
-22.1777
+-14.9277
  21
--17.6777
+17.6777
  31
-20
+10
   0
-LINE
+CIRCLE
   5
 A4B
 330
@@ -2095,21 +2269,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-22.1777
+-17.6777
  20
--17.6777
- 30
-10
- 11
-22.1777
- 21
--17.6777
- 31
-20
+17.6777
+ 40
+2.75
   0
 CIRCLE
   5
@@ -2119,17 +2287,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-17.6777
- 20
 -17.6777
+ 20
+17.6777
  40
-4.5
+2.75
   0
-CIRCLE
+LINE
   5
 A4D
 330
@@ -2137,15 +2305,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
-17.6777
+-14.9277
  20
 -17.6777
- 40
-4.5
+ 30
+0
+ 11
+-14.9277
+ 21
+-17.6777
+ 31
+10
   0
 LINE
   5
@@ -2155,23 +2329,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
-22.1777
+-14.9277
  20
-17.6777
+-17.6777
  30
-10
+0
  11
-22.1777
+-14.9277
  21
-17.6777
+-17.6777
  31
-20
+10
   0
-LINE
+CIRCLE
   5
 A4F
 330
@@ -2179,21 +2353,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-22.1777
+-17.6777
  20
-17.6777
- 30
-10
- 11
-22.1777
- 21
-17.6777
- 31
-20
+-17.6777
+ 40
+2.75
   0
 CIRCLE
   5
@@ -2203,17 +2371,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-17.6777
+-17.6777
  20
-17.6777
+-17.6777
  40
-4.5
+2.75
   0
-CIRCLE
+LINE
   5
 A51
 330
@@ -2221,15 +2389,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
-17.6777
+20.4277
  20
-17.6777
- 40
-4.5
+-17.6777
+ 30
+0
+ 11
+20.4277
+ 21
+-17.6777
+ 31
+10
   0
 LINE
   5
@@ -2239,23 +2413,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
-25
+20.4277
  20
-19.975
+-17.6777
  30
-1.11022e-14
+0
  11
-25
+20.4277
  21
-19.975
+-17.6777
  31
-20
+10
   0
-LINE
+CIRCLE
   5
 A53
 330
@@ -2263,23 +2437,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-25
+17.6777
  20
-19.975
- 30
-20
- 11
-25
- 21
--19.975
- 31
-20
+-17.6777
+ 40
+2.75
   0
-LINE
+CIRCLE
   5
 A54
 330
@@ -2287,21 +2455,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-25
+17.6777
  20
--19.975
- 30
-1.11022e-14
- 11
-25
- 21
--19.975
- 31
-20
+-17.6777
+ 40
+2.75
   0
 LINE
   5
@@ -2311,21 +2473,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
-25
+20.4277
  20
-19.975
+17.6777
  30
-1.11022e-14
+0
  11
-25
+20.4277
  21
--19.975
+17.6777
  31
-1.11022e-14
+10
   0
 LINE
   5
@@ -2335,23 +2497,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--19.975
+20.4277
  20
-25
+17.6777
  30
--8.87068e-15
+0
  11
--19.975
+20.4277
  21
-25
+17.6777
  31
-20
+10
   0
-LINE
+CIRCLE
   5
 A57
 330
@@ -2359,23 +2521,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
--19.975
+17.6777
  20
-25
- 30
-20
- 11
-19.975
- 21
-25
- 31
-20
+17.6777
+ 40
+2.75
   0
-LINE
+CIRCLE
   5
 A58
 330
@@ -2383,21 +2539,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-19.975
+17.6777
  20
-25
- 30
-8.87068e-15
- 11
-19.975
- 21
-25
- 31
-20
+17.6777
+ 40
+2.75
   0
 LINE
   5
@@ -2407,21 +2557,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--19.975
+-19.4
  20
-25
+0
  30
--8.87068e-15
+0
  11
-19.975
+-19.4
  21
-25
+0
  31
-8.87068e-15
+10
   0
 LINE
   5
@@ -2431,23 +2581,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--25
+-19.4
  20
-19.975
+0
  30
--1.11022e-14
+0
  11
--25
+-19.4
  21
--19.975
+0
  31
--1.11022e-14
+10
   0
-LINE
+CIRCLE
   5
 A5B
 330
@@ -2455,23 +2605,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
--25
+-21
  20
--19.975
- 30
--1.11022e-14
- 11
--25
- 21
--19.975
- 31
-20
+0
+ 40
+1.6
   0
-LINE
+CIRCLE
   5
 A5C
 330
@@ -2479,21 +2623,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
--25
+-21
  20
-19.975
- 30
-20
- 11
--25
- 21
--19.975
- 31
-20
+0
+ 40
+1.6
   0
 LINE
   5
@@ -2503,21 +2641,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--25
+1.6
  20
-19.975
+-21
  30
--1.11022e-14
+0
  11
--25
+1.6
  21
-19.975
+-21
  31
-20
+10
   0
 LINE
   5
@@ -2527,23 +2665,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--19.975
+1.6
  20
--25
+-21
  30
--8.87068e-15
+0
  11
-19.975
+1.6
  21
--25
+-21
  31
-8.87068e-15
+10
   0
-LINE
+CIRCLE
   5
 A5F
 330
@@ -2551,23 +2689,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-19.975
+0
  20
--25
- 30
-8.87068e-15
- 11
-19.975
- 21
--25
- 31
-20
+-21
+ 40
+1.6
   0
-LINE
+CIRCLE
   5
 A60
 330
@@ -2575,21 +2707,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
--19.975
+0
  20
--25
- 30
-20
- 11
-19.975
- 21
--25
- 31
-20
+-21
+ 40
+1.6
   0
 LINE
   5
@@ -2599,21 +2725,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--19.975
+22.6
  20
--25
+0
  30
--8.87068e-15
+0
  11
--19.975
+22.6
  21
--25
+0
  31
-20
+10
   0
 LINE
   5
@@ -2623,23 +2749,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
-19.975
+22.6
  20
-25
+0
  30
-8.87068e-15
+0
  11
-19.975
+22.6
  21
-25
+0
  31
-20
+10
   0
-ARC
+CIRCLE
   5
 A63
 330
@@ -2647,25 +2773,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-3.35361e-25
+21
  20
--2.18993e-23
- 30
-1.4893e-40
+0
  40
-32
-100
-AcDbArc
- 50
-38.6248
- 51
-51.3752
+1.6
   0
-LINE
+CIRCLE
   5
 A64
 330
@@ -2673,23 +2791,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-25
+21
  20
-19.975
- 30
-1.11022e-14
- 11
-25
- 21
-19.975
- 31
-20
+0
+ 40
+1.6
   0
-ARC
+LINE
   5
 A65
 330
@@ -2697,23 +2809,21 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
--8.88178e-15
+1.6
  20
--1.98877e-23
+21
  30
-20
- 40
-32
-100
-AcDbArc
- 50
-38.6248
- 51
-51.3752
+0
+ 11
+1.6
+ 21
+21
+ 31
+10
   0
 LINE
   5
@@ -2723,23 +2833,23 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
-25
+1.6
  20
--19.975
+21
  30
-1.11022e-14
+0
  11
-25
+1.6
  21
--19.975
+21
  31
-20
+10
   0
-ARC
+CIRCLE
   5
 A67
 330
@@ -2747,25 +2857,17 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-3.35361e-25
+0
  20
--2.18993e-23
- 30
-1.4893e-40
+21
  40
-32
-100
-AcDbArc
- 50
--51.3752
- 51
--38.6248
+1.6
   0
-LINE
+CIRCLE
   5
 A68
 330
@@ -2773,21 +2875,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbLine
+AcDbCircle
  10
-19.975
+0
  20
--25
- 30
-8.87068e-15
- 11
-19.975
- 21
--25
- 31
-20
+21
+ 40
+1.6
   0
 ARC
   5
@@ -2797,13 +2893,13 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
--8.88178e-15
+0
  20
--1.98877e-23
+0
  30
 20
  40
@@ -2811,9 +2907,9 @@ AcDbCircle
 100
 AcDbArc
  50
--51.3752
+38.6248
  51
--38.6248
+51.3752
   0
 LINE
   5
@@ -2823,19 +2919,19 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--25
+-19.975
  20
-19.975
+25
  30
--1.11022e-14
+20
  11
--25
- 21
 19.975
+ 21
+25
  31
 20
   0
@@ -2847,15 +2943,15 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-3.35361e-25
+0
  20
--2.18993e-23
+0
  30
-1.4893e-40
+20
  40
 32
 100
@@ -2873,19 +2969,19 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--19.975
+-25
  20
-25
+19.975
  30
--8.87068e-15
+20
  11
--19.975
+-25
  21
-25
+-19.975
  31
 20
   0
@@ -2897,13 +2993,13 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
--8.88178e-15
+0
  20
--1.98877e-23
+0
  30
 20
  40
@@ -2911,9 +3007,9 @@ AcDbCircle
 100
 AcDbArc
  50
-128.625
+-141.375
  51
-141.375
+-128.625
   0
 LINE
   5
@@ -2923,7 +3019,7 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
@@ -2931,9 +3027,9 @@ AcDbLine
  20
 -25
  30
--8.87068e-15
+20
  11
--19.975
+19.975
  21
 -25
  31
@@ -2947,15 +3043,597 @@ A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-3.35361e-25
+0
  20
--2.18993e-23
+0
  30
-1.4893e-40
+20
+ 40
+32
+100
+AcDbArc
+ 50
+-51.3752
+ 51
+-38.6248
+  0
+LINE
+  5
+A70
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+19.975
+ 30
+20
+ 11
+25
+ 21
+-19.975
+ 31
+20
+  0
+CIRCLE
+  5
+A71
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+17.25
+  0
+CIRCLE
+  5
+A72
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+-17.6777
+ 20
+17.6777
+ 40
+4.5
+  0
+CIRCLE
+  5
+A73
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+-17.6777
+ 20
+-17.6777
+ 40
+4.5
+  0
+CIRCLE
+  5
+A74
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+-17.6777
+ 40
+4.5
+  0
+CIRCLE
+  5
+A75
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+17.6777
+ 40
+4.5
+  0
+CIRCLE
+  5
+A76
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+-21
+ 20
+0
+ 40
+1.6
+  0
+CIRCLE
+  5
+A77
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+-21
+ 40
+1.6
+  0
+CIRCLE
+  5
+A78
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+21
+ 20
+0
+ 40
+1.6
+  0
+CIRCLE
+  5
+A79
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+21
+ 40
+1.6
+  0
+LINE
+  5
+A7A
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+19.975
+ 20
+-25
+ 30
+10
+ 11
+19.975
+ 21
+-25
+ 31
+20
+  0
+LINE
+  5
+A7B
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+25
+ 20
+-19.975
+ 30
+10
+ 11
+25
+ 21
+-19.975
+ 31
+20
+  0
+ARC
+  5
+A7C
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+10
+ 40
+32
+100
+AcDbArc
+ 50
+-51.3752
+ 51
+-38.6248
+  0
+ARC
+  5
+A7D
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+20
+ 40
+32
+100
+AcDbArc
+ 50
+-51.3752
+ 51
+-38.6248
+  0
+LINE
+  5
+A7E
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+25
+ 30
+10
+ 11
+-19.975
+ 21
+25
+ 31
+20
+  0
+LINE
+  5
+A7F
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+19.975
+ 30
+10
+ 11
+-25
+ 21
+19.975
+ 31
+20
+  0
+ARC
+  5
+A80
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+10
+ 40
+32
+100
+AcDbArc
+ 50
+128.625
+ 51
+141.375
+  0
+ARC
+  5
+A81
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+20
+ 40
+32
+100
+AcDbArc
+ 50
+128.625
+ 51
+141.375
+  0
+LINE
+  5
+A82
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+19.975
+ 30
+10
+ 11
+-25
+ 21
+19.975
+ 31
+20
+  0
+LINE
+  5
+A83
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+-19.975
+ 30
+10
+ 11
+-25
+ 21
+-19.975
+ 31
+20
+  0
+LINE
+  5
+A84
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+19.975
+ 30
+10
+ 11
+-25
+ 21
+-19.975
+ 31
+10
+  0
+LINE
+  5
+A85
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+19.975
+ 30
+20
+ 11
+-25
+ 21
+-19.975
+ 31
+20
+  0
+LINE
+  5
+A86
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-25
+ 20
+-19.975
+ 30
+10
+ 11
+-25
+ 21
+-19.975
+ 31
+20
+  0
+LINE
+  5
+A87
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+-25
+ 30
+10
+ 11
+-19.975
+ 21
+-25
+ 31
+20
+  0
+ARC
+  5
+A88
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+10
+ 40
+32
+100
+AcDbArc
+ 50
+-141.375
+ 51
+-128.625
+  0
+ARC
+  5
+A89
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 30
+20
  40
 32
 100
@@ -2967,525 +3645,553 @@ AcDbArc
   0
 LINE
   5
-A70
+A8A
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbLine
  10
--25
+-19.975
  20
--19.975
- 30
--1.11022e-14
- 11
 -25
- 21
+ 30
+10
+ 11
 -19.975
+ 21
+-25
  31
 20
   0
-ARC
+LINE
   5
-A71
+A8B
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbCircle
+AcDbLine
  10
--8.88178e-15
+19.975
  20
--1.98877e-23
+-25
+ 30
+10
+ 11
+19.975
+ 21
+-25
+ 31
+20
+  0
+LINE
+  5
+A8C
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+-25
+ 30
+10
+ 11
+19.975
+ 21
+-25
+ 31
+10
+  0
+LINE
+  5
+A8D
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-19.975
+ 20
+-25
  30
 20
- 40
-32
+ 11
+19.975
+ 21
+-25
+ 31
+20
+  0
+LINE
+  5
+A8E
+330
+A02
 100
-AcDbArc
- 50
--141.375
- 51
--128.625
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+17.25
+ 20
+0
+ 30
+10
+ 11
+17.25
+ 21
+0
+ 31
+20
+  0
+LINE
+  5
+A8F
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+17.25
+ 20
+0
+ 30
+10
+ 11
+17.25
+ 21
+0
+ 31
+20
   0
 CIRCLE
   5
-A72
+A90
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
--8.88178e-15
+0
  20
--1.98877e-23
- 40
-12.5
-  0
-SPLINE
-  5
-A73
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
 0
  40
--20
- 40
--20
- 40
-0
- 40
-0
- 10
-12.5
- 20
--2.18993e-23
- 30
-20
- 10
-12.5
- 20
--2.18993e-23
- 30
-5.32907e-15
+17.25
   0
 CIRCLE
   5
-A74
+A91
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-3.35361e-25
+0
  20
--2.18993e-23
- 40
-12.5
-  0
-SPLINE
-  5
-A75
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
 0
  40
--20
- 40
--20
- 40
-0
- 40
-0
- 10
-12.5
- 20
--2.18993e-23
- 30
-20
- 10
-12.5
- 20
--2.18993e-23
- 30
-5.32907e-15
+17.25
   0
 CIRCLE
   5
-A76
+A92
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
--21
+-17.6777
  20
-0
+17.6777
  40
-1.6
+4.5
   0
-SPLINE
+CIRCLE
   5
-A77
+A93
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
-0
+AcDbCircle
+ 10
+-17.6777
+ 20
+17.6777
  40
--20
+2.75
+  0
+CIRCLE
+  5
+A94
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+-17.6777
+ 20
+-17.6777
  40
--20
+4.5
+  0
+CIRCLE
+  5
+A95
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+-17.6777
+ 20
+-17.6777
  40
-0
+2.75
+  0
+CIRCLE
+  5
+A96
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+-17.6777
  40
-0
+4.5
+  0
+CIRCLE
+  5
+A97
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+-17.6777
+ 40
+2.75
+  0
+CIRCLE
+  5
+A98
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+17.6777
+ 40
+4.5
+  0
+CIRCLE
+  5
+A99
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+17.6777
+ 40
+2.75
+  0
+LINE
+  5
+A9A
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
  10
 -19.4
  20
 0
  30
+10
+ 11
+-19.4
+ 21
+0
+ 31
 20
+  0
+LINE
+  5
+A9B
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
  10
 -19.4
  20
 0
  30
--8.88178e-15
-  0
-CIRCLE
-  5
-A78
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbCircle
- 10
--21
- 20
-0
- 40
-1.6
-  0
-SPLINE
-  5
-A79
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
-0
- 40
--20
- 40
--20
- 40
-0
- 40
-0
- 10
+10
+ 11
 -19.4
- 20
+ 21
 0
- 30
+ 31
 20
- 10
--19.4
- 20
-0
- 30
--8.88178e-15
   0
 CIRCLE
   5
-A7A
+A9C
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
--8.88178e-15
- 20
 -21
+ 20
+0
  40
 1.6
-  0
-SPLINE
-  5
-A7B
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
-0
- 40
--20
- 40
--20
- 40
-0
- 40
-0
- 10
-1.6
- 20
--21
- 30
-20
- 10
-1.6
- 20
--21
- 30
-0
   0
 CIRCLE
   5
-A7C
+A9D
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-0
- 20
 -21
+ 20
+0
  40
 1.6
   0
-SPLINE
+LINE
   5
-A7D
+A9E
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
-0
- 40
--20
- 40
--20
- 40
-0
- 40
-0
+AcDbLine
  10
 1.6
  20
 -21
  30
+10
+ 11
+1.6
+ 21
+-21
+ 31
 20
+  0
+LINE
+  5
+A9F
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
  10
 1.6
  20
 -21
  30
-0
+10
+ 11
+1.6
+ 21
+-21
+ 31
+20
   0
 CIRCLE
   5
-A7E
+AA0
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
-21
- 20
 0
+ 20
+-21
  40
 1.6
   0
-SPLINE
+CIRCLE
   5
-A7F
+AA1
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbSpline
-210
+AcDbCircle
+ 10
 0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
-0
+ 20
+-21
  40
--20
- 40
--20
- 40
-0
- 40
-0
+1.6
+  0
+LINE
+  5
+AA2
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
  10
 22.6
  20
 0
  30
-20
- 10
+10
+ 11
 22.6
- 20
+ 21
 0
- 30
-1.06581e-14
+ 31
+20
   0
-CIRCLE
+LINE
   5
-A80
+AA3
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
+100
+AcDbLine
+ 10
+22.6
+ 20
+0
+ 30
+10
+ 11
+22.6
+ 21
+0
+ 31
+20
+  0
+CIRCLE
+  5
+AA4
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
 100
 AcDbCircle
  10
@@ -3495,129 +4201,81 @@ AcDbCircle
  40
 1.6
   0
-SPLINE
-  5
-A81
-330
-A02
-100
-AcDbEntity
-  8
-Fusion004003
-100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
-0
- 40
--20
- 40
--20
- 40
-0
- 40
-0
- 10
-22.6
- 20
-0
- 30
-20
- 10
-22.6
- 20
-0
- 30
-1.06581e-14
-  0
 CIRCLE
   5
-A82
+AA5
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
--8.88178e-15
- 20
 21
+ 20
+0
  40
 1.6
   0
-SPLINE
+LINE
   5
-A83
+AA6
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
-0
- 40
--20
- 40
--20
- 40
-0
- 40
-0
+AcDbLine
  10
 1.6
  20
 21
  30
+10
+ 11
+1.6
+ 21
+21
+ 31
 20
+  0
+LINE
+  5
+AA7
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
  10
 1.6
  20
 21
  30
-0
+10
+ 11
+1.6
+ 21
+21
+ 31
+20
   0
 CIRCLE
   5
-A84
+AA8
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
 AcDbCircle
  10
@@ -3627,53 +4285,359 @@ AcDbCircle
  40
 1.6
   0
-SPLINE
+CIRCLE
   5
-A85
+AA9
 330
 A02
 100
 AcDbEntity
   8
-Fusion004003
+Fusion
 100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
-0
- 40
--20
- 40
--20
- 40
-0
- 40
-0
+AcDbCircle
  10
-1.6
+0
  20
 21
+ 40
+1.6
+  0
+LINE
+  5
+AAA
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-13.1777
+ 20
+17.6777
  30
+10
+ 11
+-13.1777
+ 21
+17.6777
+ 31
 20
+  0
+LINE
+  5
+AAB
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
  10
-1.6
+-13.1777
  20
-21
+17.6777
  30
-0
+10
+ 11
+-13.1777
+ 21
+17.6777
+ 31
+20
+  0
+CIRCLE
+  5
+AAC
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+-17.6777
+ 20
+17.6777
+ 40
+4.5
+  0
+CIRCLE
+  5
+AAD
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+-17.6777
+ 20
+17.6777
+ 40
+4.5
+  0
+LINE
+  5
+AAE
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-13.1777
+ 20
+-17.6777
+ 30
+10
+ 11
+-13.1777
+ 21
+-17.6777
+ 31
+20
+  0
+LINE
+  5
+AAF
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+-13.1777
+ 20
+-17.6777
+ 30
+10
+ 11
+-13.1777
+ 21
+-17.6777
+ 31
+20
+  0
+CIRCLE
+  5
+AB0
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+-17.6777
+ 20
+-17.6777
+ 40
+4.5
+  0
+CIRCLE
+  5
+AB1
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+-17.6777
+ 20
+-17.6777
+ 40
+4.5
+  0
+LINE
+  5
+AB2
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+22.1777
+ 20
+-17.6777
+ 30
+10
+ 11
+22.1777
+ 21
+-17.6777
+ 31
+20
+  0
+LINE
+  5
+AB3
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+22.1777
+ 20
+-17.6777
+ 30
+10
+ 11
+22.1777
+ 21
+-17.6777
+ 31
+20
+  0
+CIRCLE
+  5
+AB4
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+-17.6777
+ 40
+4.5
+  0
+CIRCLE
+  5
+AB5
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+-17.6777
+ 40
+4.5
+  0
+LINE
+  5
+AB6
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+22.1777
+ 20
+17.6777
+ 30
+10
+ 11
+22.1777
+ 21
+17.6777
+ 31
+20
+  0
+LINE
+  5
+AB7
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbLine
+ 10
+22.1777
+ 20
+17.6777
+ 30
+10
+ 11
+22.1777
+ 21
+17.6777
+ 31
+20
+  0
+CIRCLE
+  5
+AB8
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+17.6777
+ 40
+4.5
+  0
+CIRCLE
+  5
+AB9
+330
+A02
+100
+AcDbEntity
+  8
+Fusion
+100
+AcDbCircle
+ 10
+17.6777
+ 20
+17.6777
+ 40
+4.5
   0
 ENDSEC
   0
