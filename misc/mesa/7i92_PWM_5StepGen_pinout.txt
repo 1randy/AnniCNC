@@ -86,18 +86,18 @@ IO Connections for P2
 Pin#  I/O   Pri. func    Sec. func       Chan      Pin func        Pin Dir
 
  1      0   IOPort       StepGen          0        Dir/Table2      (Out)
-14      1   IOPort       None           
- 2      2   IOPort       StepGen          0        Step/Table1     (Out)
-15      3   IOPort       StepGen          1        Dir/Table2      (Out)
- 3      4   IOPort       None           
-16      5   IOPort       StepGen          1        Step/Table1     (Out)
- 4      6   IOPort       StepGen          2        Dir/Table2      (Out)
-17      7   IOPort       None           
- 5      8   IOPort       StepGen          2        Step/Table1     (Out)
- 6      9   IOPort       StepGen          3        Dir/Table2      (Out)
- 7     10   IOPort       StepGen          3        Step/Table1     (Out)
- 8     11   IOPort       StepGen          4        Dir/Table2      (Out)
- 9     12   IOPort       StepGen          4        Step/Table1     (Out)
+14      1   IOPort       StepGen          0        Step/Table1     (Out)
+ 2      2   IOPort       StepGen          1        Dir/Table2      (Out)
+15      3   IOPort       StepGen          1        Step/Table1     (Out)
+ 3      4   IOPort       StepGen          2        Dir/Table2      (Out)
+16      5   IOPort       StepGen          2        Step/Table1     (Out)
+ 4      6   IOPort       StepGen          3        Dir/Table2      (Out)
+17      7   IOPort       StepGen          3        Step/Table1     (Out)
+ 5      8   IOPort       None           
+ 6      9   IOPort       None           
+ 7     10   IOPort       None           
+ 8     11   IOPort       None           
+ 9     12   IOPort       None           
 10     13   IOPort       None           
 11     14   IOPort       None           
 12     15   IOPort       None           
@@ -107,20 +107,20 @@ IO Connections for P1
 Pin#  I/O   Pri. func    Sec. func       Chan      Pin func        Pin Dir
 
  1     17   IOPort       SSerial          0        TXData0         (Out)
-14     18   IOPort       None           
- 2     19   IOPort       SSerial          0        RXData0         (In)
-15     20   IOPort       None           
- 3     21   IOPort       SSerial          0        TXData1         (Out)
-16     22   IOPort       None           
- 4     23   IOPort       SSerial          0        RXData1         (In)
-17     24   IOPort       PWM              0        PWM             (Out)
- 5     25   IOPort       SSerial          0        TXData2         (Out)
- 6     26   IOPort       SSerial          0        RXData2         (In)
- 7     27   IOPort       SSerial          0        TXData3         (Out)
- 8     28   IOPort       SSerial          0        RXData3         (In)
+14     18   IOPort       SSerial          0        RXData0         (In)
+ 2     19   IOPort       SSerial          0        TXData1         (Out)
+15     20   IOPort       SSerial          0        RXData1         (In)
+ 3     21   IOPort       SSerial          0        TXData2         (Out)
+16     22   IOPort       SSerial          0        RXData2         (In)
+ 4     23   IOPort       SSerial          0        TXData1         (Out)
+17     24   IOPort       SSerial          0        RXData3         (In)
+ 5     25   IOPort       QCount           0        Quad-B          (In)
+ 6     26   IOPort       QCount           0        Quad-B          (In)
+ 7     27   IOPort       QCount           0        Quad-IDX        (In)
+ 8     28   IOPort       None           
  9     29   IOPort       None           
 10     30   IOPort       None           
 11     31   IOPort       None           
 12     32   IOPort       None           
-13     33   IOPort       None           
+13     33   IOPort       PWM              0        PWM             (Out)
 

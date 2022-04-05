@@ -71,38 +71,38 @@ use work.IDROMConst.all;
 
 package PIN_7i92_PWM_5StepGen is
 	constant ModuleID : ModuleIDType :=( 
-		(WatchDogTag,	x"00",	ClockLowTag,	x"01",	WatchDogTimeAddr&PadT,		WatchDogNumRegs,		x"00",	WatchDogMPBitMask),
-		(IOPortTag,		x"00",	ClockLowTag,	x"02",	PortAddr&PadT,					IOPortNumRegs,			x"00",	IOPortMPBitMask),
-		(QcountTag,		x"02",	ClockLowTag,	x"02",	QcounterAddr&PadT,			QCounterNumRegs,		x"00",	QCounterMPBitMask),
+		(WatchDogTag,	x"00",	ClockLowTag,	x"01",	WatchDogTimeAddr&PadT,		WatchDogNumRegs,	x"00",	WatchDogMPBitMask),
+		(IOPortTag,	x"00",	ClockLowTag,	x"02",	PortAddr&PadT,			IOPortNumRegs,		x"00",	IOPortMPBitMask),
+		(QcountTag,	x"02",	ClockLowTag,	x"02",	QcounterAddr&PadT,		QCounterNumRegs,	x"00",	QCounterMPBitMask),
 		(SSerialTag,	x"00",	ClockLowTag,	x"01",	SSerialCommandAddr&PadT,	SSerialNumRegs,		x"10",	SSerialMPBitMask),
 		(StepGenTag,	x"02",	ClockLowTag,	x"0A",	StepGenRateAddr&PadT,		StepGenNumRegs,		x"00",	StepGenMPBitMask),
-		(PWMTag,                        x"00",  ClockHighTag,   x"02",  PWMValAddr&PadT,                                PWMNumRegs,                             x"00",  PWMMPBitMask),
-		(LEDTag,			x"00",	ClockLowTag,	x"01",	LEDAddr&PadT,					LEDNumRegs,				x"00",	LEDMPBitMask),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000"),
-		(NullTag,		x"00",	NullTag,			x"00",	NullAddr&PadT,					x"00",					x"00",	x"00000000")
+		(PWMTag,       	x"00",  ClockHighTag,   x"02",  PWMValAddr&PadT,                PWMNumRegs,            	x"00",  PWMMPBitMask),
+		(LEDTag,	x"00",	ClockLowTag,	x"01",	LEDAddr&PadT,			LEDNumRegs,		x"00",	LEDMPBitMask),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000"),
+		(NullTag,	x"00",	NullTag,	x"00",	NullAddr&PadT,			x"00",			x"00",	x"00000000")
 		);
 		
 	
@@ -110,40 +110,41 @@ package PIN_7i92_PWM_5StepGen is
 -- 	Base func  sec unit sec func 	 sec pin			
 									--		HDR26
 		IOPortTag & x"00" & StepGenTag & StepGenDirPin,		-- I/O 00	1
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 01       14
-		IOPortTag & x"00" & StepGenTag & StepGenStepPin,	-- I/O 02	2
-		IOPortTag & x"01" & StepGenTag & StepGenDirPin,		-- I/O 03	15
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 04       3
-		IOPortTag & x"01" & StepGenTag & StepGenStepPin,	-- I/O 05	16
-		IOPortTag & x"02" & StepGenTag & StepGenDirPin,		-- I/O 06	4
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 07       17
-		IOPortTag & x"02" & StepGenTag & StepGenStepPin,	-- I/O 08	5
-		IOPortTag & x"03" & StepGenTag & StepGenDirPin,		-- I/O 09	6
-		IOPortTag & x"03" & StepGenTag & StepGenStepPin,	-- I/O 10	7
-		IOPortTag & x"04" & StepGenTag & StepGenDirPin,		-- I/O 11	8
-		IOPortTag & x"04" & StepGenTag & StepGenStepPin,	-- I/O 12	9
+                IOPortTag & x"00" & StepGenTag & StepGenStepPin,        -- I/O 01       14
+		IOPortTag & x"01" & StepGenTag & StepGenDirPin,		-- I/O 02	2
+		IOPortTag & x"01" & StepGenTag & StepGenStepPin,	-- I/O 03	15
+                IOPortTag & x"02" & StepGenTag & StepGenDirPin,  	-- I/O 04       3
+		IOPortTag & x"02" & StepGenTag & StepGenStepPin,	-- I/O 05	16
+		IOPortTag & x"03" & StepGenTag & StepGenDirPin,		-- I/O 06	4
+                IOPortTag & x"03" & StepGenTag & StepGenStepPin,	-- I/O 07       17
+		IOPortTag & x"00" & NullTag & NullPin,			-- I/O 08	5
+		IOPortTag & x"00" & NullTag & NullPin,			-- I/O 09	6
+		IOPortTag & x"00" & NullTag & NullPin,			-- I/O 10	7
+		IOPortTag & x"00" & NullTag & NullPin,			-- I/O 11	8
+		IOPortTag & x"00" & NullTag & NullPin,			-- I/O 12	9
                 IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 13       10
                 IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 14       11
                 IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 15       12
                 IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 16       13
 
-		IOPortTag & x"00" & SSerialTag & SSerialTX0Pin, 	-- I/O 17	1
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 18	14
-		IOPortTag & x"00" & SSerialTag & SSerialRX0Pin, 	-- I/O 19	2
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 20	15
-		IOPortTag & x"00" & SSerialTag & SSerialTX1Pin, 	-- I/O 21	3
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 22	16
-		IOPortTag & x"00" & SSerialTag & SSerialRX1Pin, 	-- I/O 23	4
-                IOPortTag & x"00" & PWMTag & PWMAOutPin,                -- I/O 24	17
-		IOPortTag & x"00" & SSerialTag & SSerialTX2Pin, 	-- I/O 25	5
-		IOPortTag & x"00" & SSerialTag & SSerialRX2Pin, 	-- I/O 26	6
-		IOPortTag & x"00" & SSerialTag & SSerialTX3Pin, 	-- I/O 27	7
-		IOPortTag & x"00" & SSerialTag & SSerialRX3Pin, 	-- I/O 28	8
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 29	9
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 30	10
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 31	11
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 32	12
-                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 33	13
+		IOPortTag & x"00" & SSerialTag & SSerialTX0Pin, 	-- I/O 17
+                IOPortTag & x"00" & SSerialTag & SSerialRX0Pin,        	-- I/O 18
+		IOPortTag & x"00" & SSerialTag & SSerialTX1Pin, 	-- I/O 19
+                IOPortTag & x"00" & SSerialTag & SSerialRX1Pin,        	-- I/O 20
+		IOPortTag & x"00" & SSerialTag & SSerialTX2Pin, 	-- I/O 21
+                IOPortTag & x"00" & SSerialTag & SSerialRX2Pin,       	-- I/O 22
+		IOPortTag & x"00" & SSerialTag & SSerialTX1Pin, 	-- I/O 23
+                IOPortTag & x"00" & SSerialTag & SSerialRX3Pin,        	-- I/O 24
+
+		IOPortTag & x"00" & QCountTag & QCountQBPin,		-- I/O 25
+		IOPortTag & x"00" & QCountTag & QCountQBPin, 		-- I/O 26
+		IOPortTag & x"00" & QCountTag & QCountIdxPin, 		-- I/O 27
+		IOPortTag & x"00" & NullTag & NullPin, 			-- I/O 28
+                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 29	
+                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 30	
+                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 31	
+                IOPortTag & x"00" & NullTag & NullPin,                  -- I/O 32	
+                IOPortTag & x"00" & PWMTag & PWMAOutPin,       		-- I/O 33	
 
 		emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin, -- added for 34 pin 5I25
 		emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,
