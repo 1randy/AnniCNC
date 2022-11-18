@@ -41,7 +41,7 @@ Ordnerstruktur:
 	TBD 0004 Rahmen mit Portal montiert
 
 	0011 Stirnseite Vorne montiert
-	TBD 0021 Stirnseite Hinten monitoert
+	TBD 0021 Stirnseite Hinten montiert
 	TBD 0031 Portal komplett (Seiten + Platte)
 	TBD 0033 Portal Motorhalter
 	0041 Portal Platte montiert
@@ -78,6 +78,7 @@ Ordnerstruktur:
 	     Rev01 - Verlaengerung auf 380mm, Sackloecher fuer M6 schrauben
 	0032 Z-Achse Block Adapter
 	0033 Z-Achse Spindelplatte
+	     285 mm & 350mm Länge
 	0034 Z-Achse Motorplatte
 	0035 Z-Achse Motorhalter
 	     Rev01 - zusaetzliche M5 fuer Riemenspanner
