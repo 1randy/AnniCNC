@@ -66,7 +66,9 @@ Ordnerstruktur:
 	0004 Stirnplatte Motorhalter
 
 	0011 Portalwange links
+	     Rev01 - Verbreiterung untere Kante + Passstifte
 	0012 Portalwange rechts
+	     Rev01 - Verbreiterung untere Kante + Passstifte
 	0013 Portalwange Lagerhalter
 	0014 Portalwange Motorhalter
 	0015 Portalwange Motorplatte
