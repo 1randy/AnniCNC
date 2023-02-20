@@ -78,6 +78,7 @@ Ordnerstruktur:
 
 	0031 Z-Achse Platte
 	     Rev01 - Verlaengerung auf 380mm, Sackloecher fuer M6 schrauben
+	     Rev02 - Zusaetzliche Befestigungen fuer Z-Achse Bremse, Halter Energiekette
 	0032 Z-Achse Block Adapter
 	0033 Z-Achse Spindelplatte
 	     285 mm & 350mm Länge
